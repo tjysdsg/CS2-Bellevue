@@ -1,0 +1,75 @@
+{
+  "build": 1,
+  "lng": -122.16440353161033,
+  "lat": 47.63263094364706,
+  "zoom": 10.96635990677341,
+  "size": 57,
+  "resolution": 4096,
+  "worldPartition": false,
+  "wpCells": 1,
+  "angle": 0,
+  "baseLevel": -263.9417724609375,
+  "adjToMin": true,
+  "vertScale": 1,
+  "fixedRatio": false,
+  "type": "limit",
+  "depth": 40,
+  "waterside": 1,
+  "streamDepth": 0,
+  "streamWidth": 10,
+  "littoral": 160,
+  "riparian": 10,
+  "littArray": [
+    0.024,
+    0.095,
+    0.206,
+    0.345,
+    0.5,
+    0.655,
+    0.794,
+    0.905,
+    0.976
+  ],
+  "actualSeafloor": true,
+  "smoothing": 0,
+  "smoothRadius": 1,
+  "smthThres": -10000,
+  "smthFade": 0,
+  "sharpen": 0,
+  "sharpenRadius": 1,
+  "shrpThres": 10000,
+  "shrpFade": 0,
+  "style": "mapbox://styles/mapbox/outdoors-v12?optimize=true",
+  "gridInfo": "cs2",
+  "elevationScale": 1300,
+  "interpolation": "bicubic",
+  "noise": 0,
+  "noiseThres": 0,
+  "displayEffectArea": true,
+  "applyEffectAmount": false,
+  "normalizePreview": false,
+  "originalPreview": false,
+  "useMapbox": false,
+  "depthPoints": [
+    {
+      "x": 0,
+      "y": 0,
+      "depth": 0
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "depth": 0
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "depth": 0
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "depth": 0
+    }
+  ]
+}
