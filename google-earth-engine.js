@@ -52,6 +52,7 @@ ee.List([minElevationEE, maxElevationEE]).evaluate(function(list) {
     description: 'Bellevue_Heightmap',
     scale: 10, // Export at the native 10-meter resolution of the 3DEP DEM
     region: bellevue,
+    crs: 'EPSG:3857',
     maxPixels: 1e12,
     fileFormat: 'GeoTIFF' // Specify GeoTIFF format
   });
@@ -85,6 +86,7 @@ Export.image.toDrive({
   description: 'Bellevue_NAIP_Satellite_Image',
   scale: 1, // Export at 1-meter resolution (or 0.6 for native NAIP resolution)
   region: bellevue,
+  crs: 'EPSG:3857',
   maxPixels: 1e12,
   fileFormat: 'GeoTIFF' // Specify GeoTIFF format
 });
